@@ -28,10 +28,10 @@ export default function About() {
 
           <h2 className="text-2xl font-bold text-gray-800 pt-4">技術スタック</h2>
           <ul className="list-disc list-inside ml-4 space-y-2">
-            <li>**フロントエンド:** Next.js (Pages Router, SSG)</li>
-            <li>**スタイリング:** Tailwind CSS</li>
-            <li>**ホスティング:** Azure Static Web Apps (Free Plan)</li>
-            <li>**バージョン管理:** Git / GitHub Actions</li>
+            <li><strong>フロントエンド:</strong> Next.js (Pages Router, SSG)</li> 
+            <li><strong>スタイリング:</strong> Tailwind CSS</li>
+            <li><strong>ホスティング:</strong> Azure Static Web Apps (Free Plan)</li>
+            <li><strong>バージョン管理:</strong> Git / GitHub Actions</li>
           </ul>
         </section>
 
