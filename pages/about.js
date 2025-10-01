@@ -18,14 +18,12 @@ export default function About() {
           
           <h2 className="text-2xl font-bold text-gray-800 pt-4">目的</h2>
           <p>
-            このブログは、モダンなWeb技術（Next.js、Tailwind CSS、Azure Static Web Apps）を使った開発を試すために作られました。
-            特に、クラウドの無料枠を活用しながら、いかに高速でデザイン性の高いサイトを構築できるかを追求しています。
+            このブログは、私が学習した内容を覚書程度にまとめることを目的としています。
           </p>
           
           <h2 className="text-2xl font-bold text-gray-800 pt-4">自己紹介</h2>
           <p>
-            ITインフラの分野に携わっています。最近はクラウド、特にMicrosoft AzureとAWSの知識習得に力を入れています。
-            業務で得た知見や、新しい技術を学んだ際の備忘録として、情報を共有していきたいと考えています。
+            IT業界でSEとして働いています。主にWebアプリケーションの開発の勉強をしています。
           </p>
 
           <h2 className="text-2xl font-bold text-gray-800 pt-4">技術スタック</h2>
