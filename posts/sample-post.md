@@ -1,9 +1,3 @@
-承知いたしました。上記の形式（Markdown形式）で、前の回答の「**Next.js & Tailwind CSSでモダンブログをAzure Static Web Appsに無料でホスティングする完全ガイド**」の記事を再構成します。
-
-これは、ブログ記事としてそのまま公開できる形式です。
-
----
-```markdown
 ---
 title: "Next.js & Tailwind CSSでモダンブログをAzure Static Web Appsに無料でホスティングする完全ガイド"
 date: "2025-10-01"
