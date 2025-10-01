@@ -21,10 +21,10 @@ export default function Home({ allPostsData }) {
             A
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-3">
-            モダンな開発を追求する
+            atteruの備忘録
           </h1>
           <p className="text-lg text-gray-600 max-w-xl mx-auto">
-            Next.js, Tailwind CSS, Azure Static Web Appsを活用した、クリーンで高速なWebサイト構築の知見を共有します。
+            実際に私が学習したことを覚書程度にまとめています。
           </p>
         </section>
 

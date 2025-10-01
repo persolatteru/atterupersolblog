@@ -6,7 +6,7 @@ export default function Topics({ allPostsData }) {
   return (
     <>
       <Head>
-        <title>すべての記事 - Minimal Blog</title>
+        <title>すべての記事 - atteru Blog</title>
       </Head>
 
       <div>
