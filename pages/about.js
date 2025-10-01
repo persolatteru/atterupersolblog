@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Minimal Blog</title>
+        <title>About - atteru Blog</title>
       </Head>
 
       <div className="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-lg border border-gray-100">
