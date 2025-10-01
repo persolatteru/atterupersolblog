@@ -8,7 +8,7 @@ const NavLink = ({ href, children }) => (
 )
 
 export default function Layout({ children }) {
-  const blogName = "Minimal Blog"
+  const blogName = "atteru Blog"
   
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 font-sans">
