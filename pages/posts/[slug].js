@@ -1,3 +1,5 @@
+// pages/posts/[slug].js
+
 import Head from 'next/head'
 import Link from 'next/link'
 import { getAllPostSlugs, getPostData } from '../../lib/posts'
@@ -23,9 +25,9 @@ export default function Post({ postData }) {
         </header>
 
         {/* 記事本文 (Markdownから変換されたHTML) */}
-        {/* post-contentクラスに、styles/globals.cssで定義したMarkdown要素のスタイルが適用されます */}
         <div 
-          className="post-content" 
+          // 💡 修正: proseクラスを追加し、Markdown内の要素に自動でスタイルを適用
+          className="post-content prose max-w-none" 
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }} 
         />
         

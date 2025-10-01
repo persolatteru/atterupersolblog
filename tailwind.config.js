@@ -18,5 +18,8 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  // 💡 修正: Typographyプラグインを追加
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
