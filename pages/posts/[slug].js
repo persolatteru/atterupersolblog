@@ -8,7 +8,7 @@ export default function Post({ postData }) {
   return (
     <>
       <Head>
-        <title>{postData.title} - Minimal Blog</title>
+        <title>{postData.title} - atteru Blog</title>
       </Head>
       
       <article className="bg-white p-6 sm:p-10 rounded-xl shadow-lg border border-gray-100">
