@@ -9,7 +9,7 @@ export default function Home({ allPostsData }) {
   return (
     <>
       <Head>
-        <title>Minimal Blog - モダンな開発を追求する</title>
+        <title>atteru Blog - モダンな開発を追求する</title>
       </Head>
 
       <div className="space-y-16">
