@@ -21,7 +21,7 @@ module.exports = {
           css: {
             // Markdown内のimgタグの最大幅を親コンテナに合わせる
             img: {
-              width: '100%',     // 親要素の幅に合わせる
+              width: '30%',     // 親要素の幅に合わせる
               maxWidth: '100%',  // 親要素の幅を超えないようにする
               height: 'auto',    // 縦横比を維持する
               borderRadius: theme('borderRadius.lg'), // 角を少し丸くする装飾
