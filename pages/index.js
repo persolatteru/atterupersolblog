@@ -2,6 +2,7 @@ import Link from 'next/link'
 import PostCard from '../components/PostCard'
 import { getSortedPostsData } from '../lib/posts'
 import Head from 'next/head'
+import Image from 'next/image' 
 
 export default function Home({ allPostsData }) {
   const latestPosts = allPostsData.slice(0, 3)
@@ -17,8 +18,14 @@ export default function Home({ allPostsData }) {
         {/* ヒーローセクション */}
         <section className="text-center py-16 bg-white rounded-xl shadow-lg border border-gray-100">
           {/* アバター/写真の代わり */}
-          <div className="mx-auto w-24 h-24 bg-gray-200 rounded-full flex items-center justify-center text-4xl font-bold text-gray-600 mb-6">
-            A
+          <div className="mx-auto w-24 h-24 mb-6 relative">
+            <Image 
+              src="/IMG_2785.jpeg" // 💡 配置した画像ファイル名に修正
+              alt="筆者のアバター" 
+              layout="fill"
+              objectFit="cover"
+              className="rounded-full" // Tailwindで丸くする
+            />
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-3">
             atteruの備忘録
