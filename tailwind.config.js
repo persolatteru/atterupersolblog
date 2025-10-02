@@ -27,6 +27,20 @@ module.exports = {
               borderRadius: theme('borderRadius.lg'), // 角を少し丸くする装飾
               margin: '2rem auto', // 中央寄せと上下マージンを追加
             },
+            table: {
+              width: '100%',
+              borderCollapse: 'collapse',
+              margin: '2rem 0',
+            },
+            'th, td': {
+              padding: theme('spacing.3'),
+              border: '1px solid ' + theme('colors.gray.300'),
+              textAlign: 'left',
+            },
+            th: {
+              fontWeight: theme('fontWeight.bold'),
+              backgroundColor: theme('colors.gray.100'),
+            },
           },
         },
       }),
